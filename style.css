@@ -1,8 +1,16 @@
 
+body {
+    font-family: 'Maven Pro', sans-serif;
+}
+
+h2 {
+    font-weight: bolder;
+}
+
 .contentImg {
     display: flex;
     justify-content: space-around;
-   
+   margin-bottom: 2rem;
 }
 
 .row-content {
@@ -14,7 +22,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 20rem;
-    background-image: url(https://d5wt70d4gnm1t.cloudfront.net/media/a-s/articles/2470-042849084695/11-studio-hacks-that-will-save-you-money-in-art-school-we-promise-only-one-involves-dumpster-900x450-c.jpg);
+background-image: url(imgs/gallerybanner.jpg);
 }
 
 #btnnn {
@@ -23,12 +31,17 @@
 
 footer {
     margin-top: 5rem;
-    background-image: url(https://classes.froshay.com/wp-content/uploads/2015/02/brushshapes-1024x215.jpg);
+    background-image: url(imgs/brushshapes.jpg);
 }
 
 hr {
     border: 1px solid #cf7425;
   
+}
+
+#munkOfTheWeek {
+    height: 400px;
+    width: auto;
 }
 
 @media (max-width: 576px){
