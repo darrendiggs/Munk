@@ -1,0 +1,50 @@
+
+.contentImg {
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.row-content {
+    padding-top: 3rem;
+    padding-bottom: 3rem;   
+}
+
+.jumbotron {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20rem;
+    background-image: url(https://d5wt70d4gnm1t.cloudfront.net/media/a-s/articles/2470-042849084695/11-studio-hacks-that-will-save-you-money-in-art-school-we-promise-only-one-involves-dumpster-900x450-c.jpg);
+}
+
+#btnnn {
+   background-color: #cf7425; 
+}
+
+footer {
+    margin-top: 5rem;
+    background-image: url(https://classes.froshay.com/wp-content/uploads/2015/02/brushshapes-1024x215.jpg);
+}
+
+hr {
+    border: 1px solid #cf7425;
+  
+}
+
+@media (max-width: 576px){
+    .mobile-logo {
+        display: block;
+    }
+    .desktop-logo {
+        display: none;
+    }
+}
+
+@media (min-width: 576px){
+    .mobile-logo {
+        display: none;
+    }
+    .desktop-logo {
+        display: block;
+    }
+}
