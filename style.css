@@ -3,14 +3,14 @@ body {
     font-family: 'Maven Pro', sans-serif;
 }
 
-h2 {
+h1, h2, h3 {
     font-weight: bolder;
 }
 
 .contentImg {
     display: flex;
     justify-content: space-around;
-   margin-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 
 .row-content {
@@ -22,7 +22,7 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
     height: 20rem;
-background-image: url(imgs/gallerybanner.jpg);
+    background-image: url(imgs/gallerybanner.jpg);
 }
 
 #btnnn {
@@ -43,6 +43,20 @@ hr {
     height: 400px;
     width: auto;
 }
+
+ul {
+    list-style-type: none;
+  }
+
+.galleryImg{
+    margin-top: 2rem;
+    height: auto;
+    width: auto;
+}
+
+ .newsLetter {
+    margin-top: 5rem;
+ } 
 
 @media (max-width: 576px){
     .mobile-logo {
