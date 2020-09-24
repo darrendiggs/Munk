@@ -25,7 +25,7 @@ h1, h2, h3 {
     background-image: url(imgs/gallerybanner.jpg);
 }
 
-#btnnn {
+.btn {
    background-color: #cf7425; 
 }
 
@@ -57,6 +57,10 @@ ul {
  .newsLetter {
     margin-top: 5rem;
  } 
+
+ .form-control {
+     margin-top: 1rem;
+ }
 
 @media (max-width: 576px){
     .mobile-logo {
