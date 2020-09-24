@@ -48,6 +48,7 @@ ul {
     list-style-type: none;
   }
 
+
 .galleryImg{
     margin-top: 2rem;
     height: auto;
@@ -62,6 +63,23 @@ ul {
      margin-top: 1rem;
  }
 
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.carousel-control-next-icon {
+    background-color: #cf7425;
+}
+
+.carousel-control-prev-icon {
+    background-color: #cf7425;
+}
+
+
+
+
+
 @media (max-width: 576px){
     .mobile-logo {
         display: block;
@@ -69,7 +87,9 @@ ul {
     .desktop-logo {
         display: none;
     }
+
 }
+
 
 @media (min-width: 576px){
     .mobile-logo {
@@ -77,5 +97,11 @@ ul {
     }
     .desktop-logo {
         display: block;
+    }
+    .carousel-control-prev {
+        margin-left: -67px;
+    }
+      .carousel-control-next {
+        margin-right: -67px;
     }
 }
